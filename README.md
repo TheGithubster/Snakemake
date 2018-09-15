@@ -5,7 +5,6 @@ Snakemake-pipeline
 ### Requirements
 * Snakemake
 * Conda
-* (Optionally) Vagrant
 
 ### Steps
 **1.Clone this repository**

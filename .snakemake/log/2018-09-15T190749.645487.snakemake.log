@@ -1,0 +1,14 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	select_fasta
+	1
+
+Job 0: <-- Example.fasta selected as default. -->
+
+Finished job 0.
+1 of 1 steps (100%) done
+Complete log: /home/thomas/Desktop/Snakemake/.snakemake/log/2018-09-15T190749.645487.snakemake.log

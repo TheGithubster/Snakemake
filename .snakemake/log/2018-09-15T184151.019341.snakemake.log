@@ -1,0 +1,21 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	enter_file
+	1
+
+Job 0: <-- Enter File:  -->
+
+Terminating processes on user request, this might take some time.
+    Error in rule enter_file:
+        jobid: 0
+
+RuleException:
+CalledProcessError in line 11 of /home/thomas/Desktop/Snakemake/Snakefile:
+Command ' set -euo pipefail;  /usr/bin/python3 /home/thomas/Desktop/Snakemake/scripts/.snakemake.cwamfj_j.fasta_selector.py ' returned non-zero exit status 1.
+  File "/home/thomas/Desktop/Snakemake/Snakefile", line 11, in __rule_enter_file
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+Complete log: /home/thomas/Desktop/Snakemake/.snakemake/log/2018-09-15T184151.019341.snakemake.log
