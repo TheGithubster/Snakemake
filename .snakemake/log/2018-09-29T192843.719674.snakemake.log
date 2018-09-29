@@ -1,0 +1,14 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	select_fasta
+	1
+
+[Sat Sep 29 19:28:43 2018]
+Job 0: <-- Starting file stream from root -->
+
+Terminating processes on user request, this might take some time.
+Cancelling snakemake on user request.
