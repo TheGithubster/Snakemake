@@ -1,0 +1,17 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	1
+
+[Sun Sep 30 19:38:39 2018]
+localrule all:
+    jobid: 0
+
+[Sun Sep 30 19:38:39 2018]
+Finished job 0.
+1 of 1 steps (100%) done
+Complete log: /home/thomas/Desktop/Snakemake/.snakemake/log/2018-09-30T193839.967278.snakemake.log
