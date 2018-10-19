@@ -1,0 +1,25 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	blast
+	1
+
+[Fri Oct 19 14:43:34 2018]
+Job 0: <-- Starting blast -->
+
+[Fri Oct 19 14:43:34 2018]
+Error in rule blast:
+    jobid: 0
+    output: scripts/data/blast_results.out.txt, scripts/data/blast_results.complete-visual-svg.svg
+
+RuleException:
+WorkflowError in line 25 of /home/thomas/Desktop/Snakemake/Snakefile:
+URLError: <urlopen error [Errno 2] No such file or directory: '/home/thomas/Desktop/Snakemake/perl services/ncbiblast_lwp.pl --email "Thom-rein97@hotmail.nl" --sequence copy.fa --database "uniprotkb_bacteria" --stype protein --program blastp --align 7 --alignments 5 --outfile scripts/data/blast_results'>
+  File "/home/thomas/Desktop/Snakemake/Snakefile", line 25, in __rule_blast
+  File "/home/thomas/miniconda3/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /home/thomas/Desktop/Snakemake/.snakemake/log/2018-10-19T144334.397994.snakemake.log

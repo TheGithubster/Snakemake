@@ -1,0 +1,710 @@
+<?xml version='1.0'?>
+<svg contentScriptType="text/ecmascript" width="924" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" id="svg2" height="945" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.1">
+	
+ <defs id="definitions">
+    
+  <symbol id="colorscaleBox" preserveAspectRatio="xMidYMid meet">
+      
+   <rect x="50" width="650" height="10" y="15"/>
+      
+   <text x="1" fill="black" font-size="11" y="25" font-family="sans-serif">E-value</text>
+      
+   <line y2="26" stroke-width="1" x1="50" x2="700" stroke="black" y1="26"/>
+      
+   <line y2="28" stroke-width="1" x1="50" x2="50" stroke="black" y1="26"/>
+      
+   <text x="50" font-size="10" y="38" text-anchor="middle" fill="black" font-family="sans-serif" id="gradientStart">7.1E-53</text>
+      
+   <line y2="28" stroke-width="1" x1="212" x2="212" stroke="black" y1="26"/>
+      
+   <text x="212" font-size="10" y="38" text-anchor="middle" fill="black" font-family="sans-serif" id="gradientStep1">9.607E-42</text>
+      
+   <line y2="28" stroke-width="1" x1="374" x2="374" stroke="black" y1="26"/>
+      
+   <text x="374" font-size="10" y="38" text-anchor="middle" fill="black" font-family="sans-serif" id="gradientStep2">3.534E-36</text>
+      
+   <line y2="28" stroke-width="1" x1="536" x2="536" stroke="black" y1="26"/>
+      
+   <text x="536" font-size="10" y="38" text-anchor="middle" fill="black" font-family="sans-serif" id="gradientStep3">2.143E-33</text>
+      
+   <line y2="28" stroke-width="1" x1="698" x2="698" stroke="black" y1="26"/>
+      
+   <text x="698" font-size="10" y="38" text-anchor="middle" fill="black" font-family="sans-serif" id="gradientEnd">1.3E-30</text>
+      
+   <text x="350" fill="black" font-size="10" y="60" font-family="sans-serif" text-anchor="middle">European Bioinformatics Institute 2006-2014. EBI is an Outstation of the European Molecular Biology Laboratory.</text>
+    
+  </symbol>
+    
+  <linearGradient xlink:actuate="onLoad" xlink:type="simple" id="colorscale" xlink:show="other" xmlns:xlink="http://www.w3.org/1999/xlink">
+        
+   <stop stop-color="rgb(255,64,64)" offset="0%"/>
+        
+   <stop stop-color="rgb(255,255,64)" offset="25%"/>
+        
+   <stop stop-color="rgb(64,255,64)" offset="50%"/>
+        
+   <stop stop-color="rgb(64,255,255)" offset="75%"/>
+        
+   <stop stop-color="rgb(64,64,255)" offset="100%"/>
+    
+  </linearGradient>
+    
+  <pattern x="0" y="0" width="8" xmlns:xlink="http://www.w3.org/1999/xlink" patternUnits="userSpaceOnUse" xlink:type="simple" xlink:actuate="onLoad" height="8" id="zebra" preserveAspectRatio="xMidYMid meet" xlink:show="other">
+      
+   <rect fill="white" x="0" width="8" height="8" y="0"/>
+      
+   <line y2="8" x1="0" x2="4" stroke="black" y1="0"/>
+      
+   <line y2="8" x1="4" x2="8" stroke="black" y1="0"/>
+    
+  </pattern>
+    
+  <svg contentScriptType="text/ecmascript" width="662" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" height="19" id="querySequenceBox" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+		
+   <rect x="5" y="0" fill="white" width="110" rx="2" ry="2" height="14" stroke="grey"/>
+		
+   <svg x="116" contentScriptType="text/ecmascript" y="4" width="6" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" height="6" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+			
+    <path fill="grey" opacity="0.8" d="M1 0 L6 3 L1 6 Z"/>
+		
+   </svg>
+		
+   <text x="8" fill="grey" font-size="10" y="10" font-family="sans-serif">Query Sequence</text>
+		
+   <line y2="7" stroke-width="2" x1="135" x2="660" stroke="black" y1="7"/>
+		
+   <line y2="10" stroke-width="2" x1="135" x2="135" stroke="black" y1="4"/>
+		
+   <line y2="10" stroke-width="2" x1="660" x2="660" stroke="black" y1="4"/>
+		
+   <text x="137" fill="black" font-size="8" y="18" font-family="sans-serif" text-anchor="end">
+			1
+		</text>
+    
+  </svg>
+    
+  <svg contentScriptType="text/ecmascript" width="125" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" height="45" id="subjectSequenceBox" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+		
+   <rect x="5" y="0" fill="white" width="110" rx="2" ry="2" height="13" stroke="grey"/>
+		
+   <rect x="15" y="13" fill="white" width="100" rx="2" ry="2" height="11" stroke="grey"/>
+		
+   <svg x="116" contentScriptType="text/ecmascript" y="4" width="8" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" height="10" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+			
+    <path fill="grey" opacity="0.8" d="M1 0 L6 3 L1 6 Z"/>
+		
+   </svg>
+		
+   <text x="18" fill="grey" font-size="9" y="22" font-family="sans-serif">Acc:</text>
+    
+  </svg>
+  
+ </defs>
+	
+ <rect x="1" y="0" fill="white" width="922" opacity="1" id="border" height="944" stroke="rgb(94,158,158)" stroke-width="2"/>
+	
+ <g id="info">
+		
+  <text x="919" font-size="10" id="startTimeInfo" y="13" font-family="sans-serif" text-anchor="end">Fri, Oct 19, 2018 at 15:54:35</text>
+		
+  <text x="919" font-size="10" id="endTimeInfo" y="23" font-family="sans-serif" text-anchor="end">Fri, Oct 19, 2018 at 15:55:28</text>
+		
+  <text x="5" font-size="11" id="programInfo" y="13" font-weight="bold" font-family="sans-serif">blastp (version: BLASTP 2.7.1+)</text>
+		
+  <text x="5" font-size="10" id="databaseInfo" y="26" font-family="sans-serif">Database: uniprotkb_bacteria</text>
+		
+  <svg x="0" contentScriptType="text/ecmascript" y="29" width="919" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" height="20" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+			
+   <text x="5" font-size="10" id="sequenceName" y="8" font-family="sans-serif">Sequence: sp|P69892|HBG2_HUMAN Hemoglobin subunit gamma-2 OS=Homo sapiens OX=9606 GN=HBG2 PE=1 SV=2</text>
+		
+  </svg>
+		
+  <text x="5" font-size="10" id="sequenceInfo" y="48" font-family="sans-serif">Length: 147</text>
+	
+ </g>
+
+	
+ <g id="content">
+  <g id="title">
+			
+   <text x="457" font-size="12" y="65" text-anchor="middle" fill="black" font-family="sans-serif" font-weight="bold">
+				Fast Family and Domain Prediction
+			</text>
+			
+   <text x="457" fill="black" font-size="10" y="77" font-family="sans-serif" text-anchor="middle">
+				(Query Sequence View)
+			</text>
+			
+   <text x="135" font-size="10" y="87" fill="black" font-family="sans-serif" font-style="italic" font-weight="bold">
+				MATCH
+			</text>
+		
+  </g>
+  <use x="0" y="92" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#querySequenceBox" xlink:type="simple" xlink:actuate="onLoad" xlink:show="embed"/>
+  <text x="660" font-size="9" y="110" text-anchor="end" fill="black" font-family="sans-serif" id="sequenceLength">147</text>
+  <use x="0" y="110" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#subjectSequenceBox" xlink:type="simple" xlink:actuate="onLoad" xlink:show="embed"/>
+  <text x="8" fill="black" font-size="11" y="120" font-family="sans-serif">A0A2V2PAW4_ENTFC</text>
+  <text x="39" fill="black" font-size="9" y="132" font-family="sans-serif">A0A2V2PAW4</text>
+  <text x="677" font-size="11" y="124" fill="black" font-family="sans-serif" lengthAdjust="spacingAndGlyphs" textLength="242">Uncharacterized protein OS=Enterococcus ...</text>
+  <line y2="117" stroke-width="2" x1="135" x2="660" stroke="black" y1="117"/>
+  <line y2="120" stroke-width="2" x1="135" x2="135" stroke="black" y1="114"/>
+  <line y2="120" stroke-width="2" x1="660" x2="660" stroke="black" y1="114"/>
+  <text x="135" fill="black" font-size="10" y="130" font-family="sans-serif" text-anchor="middle">1</text>
+  <text x="660" font-size="10" y="130" text-anchor="end" fill="black" font-family="sans-serif" id="subjectLength">147</text>
+  <g>
+   <rect x="138" y="93" fill-opacity="0.5" fill="rgb(255,64,64)" width="518" rx="3" ry="3" height="130" id="alnOverlay"/>
+   <g>
+    <text x="115" fill="black" font-size="10" y="147" font-family="sans-serif" text-anchor="end">IPR002337</text>
+    <svg x="116" contentScriptType="text/ecmascript" y="140" width="8" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" height="10" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+						
+     <path fill="black" opacity="0.8" d="M1 0 L6 3 L1 6 Z"/>
+					
+    </svg>
+    <line x1="135" x2="660" y1="143" y2="143" stroke-dasharray="2,2" stroke="black" stroke-width="1"/>
+    <rect x="160" y="140" fill="#FFFFFF" width="496" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="680" y="140" fill="#FFFFFF" width="5" height="5" stroke="black" stroke-width="1"/>
+    <text font-style="italic" x="687" fill="black" font-size="9" y="147" font-family="sans-serif">CDD</text>
+    <text x="744" fill="black" font-size="9" y="147" font-family="sans-serif">Haemoglobin, beta-type</text>
+    <text x="115" fill="black" font-size="10" y="157" font-family="sans-serif" text-anchor="end">IPR002337</text>
+    <svg x="116" contentScriptType="text/ecmascript" y="150" width="8" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" height="10" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+						
+     <path fill="black" opacity="0.8" d="M1 0 L6 3 L1 6 Z"/>
+					
+    </svg>
+    <line x1="135" x2="660" y1="153" y2="153" stroke-dasharray="2,2" stroke="black" stroke-width="1"/>
+    <rect x="242" y="150" fill="#33CC33" width="57" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="306" y="150" fill="#33CC33" width="54" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="392" y="150" fill="#33CC33" width="60" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="470" y="150" fill="#33CC33" width="18" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="592" y="150" fill="#33CC33" width="57" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="680" y="150" fill="#33CC33" width="5" height="5" stroke="black" stroke-width="1"/>
+    <text font-style="italic" x="687" fill="black" font-size="9" y="157" font-family="sans-serif">PRINTS</text>
+    <text x="744" fill="black" font-size="9" y="157" font-family="sans-serif">Haemoglobin, beta-type</text>
+    <text x="115" fill="black" font-size="10" y="167" font-family="sans-serif" text-anchor="end">IPR012292</text>
+    <svg x="116" contentScriptType="text/ecmascript" y="160" width="8" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" height="10" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+						
+     <path fill="black" opacity="0.8" d="M1 0 L6 3 L1 6 Z"/>
+					
+    </svg>
+    <line x1="135" x2="660" y1="163" y2="163" stroke-dasharray="2,2" stroke="black" stroke-width="1"/>
+    <rect x="142" y="160" fill="#FFFFFF" width="518" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="680" y="160" fill="#FFFFFF" width="5" height="5" stroke="black" stroke-width="1"/>
+    <text font-style="italic" x="687" fill="black" font-size="9" y="167" font-family="sans-serif">CATHGENE3D</text>
+    <text x="744" fill="black" font-size="9" y="167" font-family="sans-serif">Globin/Protoglobin</text>
+    <text x="115" fill="black" font-size="10" y="177" font-family="sans-serif" text-anchor="end">IPR009050</text>
+    <svg x="116" contentScriptType="text/ecmascript" y="170" width="8" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" height="10" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+						
+     <path fill="black" opacity="0.8" d="M1 0 L6 3 L1 6 Z"/>
+					
+    </svg>
+    <line x1="135" x2="660" y1="173" y2="173" stroke-dasharray="2,2" stroke="black" stroke-width="1"/>
+    <rect x="142" y="170" fill="#000000" width="514" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="680" y="170" fill="#000000" width="5" height="5" stroke="black" stroke-width="1"/>
+    <text font-style="italic" x="687" fill="black" font-size="9" y="177" font-family="sans-serif">SSF</text>
+    <text x="744" fill="black" font-size="9" y="177" font-family="sans-serif">Globin-like superfamily</text>
+    <text x="115" fill="black" font-size="10" y="187" font-family="sans-serif" text-anchor="end">IPR000971</text>
+    <svg x="116" contentScriptType="text/ecmascript" y="180" width="8" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" height="10" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+						
+     <path fill="black" opacity="0.8" d="M1 0 L6 3 L1 6 Z"/>
+					
+    </svg>
+    <line x1="135" x2="660" y1="183" y2="183" stroke-dasharray="2,2" stroke="black" stroke-width="1"/>
+    <rect x="167" y="180" fill="#6633FF" width="368" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="680" y="180" fill="#6633FF" width="5" height="5" stroke="black" stroke-width="1"/>
+    <text font-style="italic" x="687" fill="black" font-size="9" y="187" font-family="sans-serif">PFAM</text>
+    <text x="744" fill="black" font-size="9" y="187" font-family="sans-serif">Globin</text>
+    <text x="115" fill="black" font-size="10" y="197" font-family="sans-serif" text-anchor="end">IPR000971</text>
+    <svg x="116" contentScriptType="text/ecmascript" y="190" width="8" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" height="10" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+						
+     <path fill="black" opacity="0.8" d="M1 0 L6 3 L1 6 Z"/>
+					
+    </svg>
+    <line x1="135" x2="660" y1="193" y2="193" stroke-dasharray="2,2" stroke="black" stroke-width="1"/>
+    <rect x="152" y="190" fill="#FF9933" width="504" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="680" y="190" fill="#FF9933" width="5" height="5" stroke="black" stroke-width="1"/>
+    <text font-style="italic" x="687" fill="black" font-size="9" y="197" font-family="sans-serif">PROFILE</text>
+    <text x="744" fill="black" font-size="9" y="197" font-family="sans-serif">Globin</text>
+    <text x="115" fill="black" font-size="10" y="207" font-family="sans-serif" text-anchor="end">PTHR11442</text>
+    <svg x="116" contentScriptType="text/ecmascript" y="200" width="8" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" height="10" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+						
+     <path fill="black" opacity="0.8" d="M1 0 L6 3 L1 6 Z"/>
+					
+    </svg>
+    <line x1="135" x2="660" y1="203" y2="203" stroke-dasharray="2,2" stroke="black" stroke-width="1"/>
+    <rect x="138" y="200" fill="grey" width="518" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="680" y="200" fill="grey" width="5" height="5" stroke="black" stroke-width="1"/>
+    <text font-style="italic" x="687" fill="black" font-size="9" y="207" font-family="sans-serif">Unclassified</text>
+    <text x="115" fill="black" font-size="10" y="217" font-family="sans-serif" text-anchor="end">PTHR11442:SF7</text>
+    <svg x="116" contentScriptType="text/ecmascript" y="210" width="8" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" height="10" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+						
+     <path fill="black" opacity="0.8" d="M1 0 L6 3 L1 6 Z"/>
+					
+    </svg>
+    <line x1="135" x2="660" y1="213" y2="213" stroke-dasharray="2,2" stroke="black" stroke-width="1"/>
+    <rect x="138" y="210" fill="grey" width="518" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="680" y="210" fill="grey" width="5" height="5" stroke="black" stroke-width="1"/>
+    <text font-style="italic" x="687" fill="black" font-size="9" y="217" font-family="sans-serif">Unclassified</text>
+   </g>
+   <rect x="138" y="93" fill-opacity="0" width="518" rx="3" ry="3" height="130" id="alnBorder" stroke="rgb(255,64,64)" stroke-width="2" stroke-opacity="0.8"/>
+  </g>
+  <use x="0" y="232" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#querySequenceBox" xlink:type="simple" xlink:actuate="onLoad" xlink:show="embed"/>
+  <text x="660" font-size="9" y="250" text-anchor="end" fill="black" font-family="sans-serif" id="sequenceLength">147</text>
+  <use x="0" y="250" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#subjectSequenceBox" xlink:type="simple" xlink:actuate="onLoad" xlink:show="embed"/>
+  <text x="8" fill="black" font-size="11" y="260" font-family="sans-serif">A0A2V2PBW1_ENTFC</text>
+  <text x="39" fill="black" font-size="9" y="272" font-family="sans-serif">A0A2V2PBW1</text>
+  <text x="677" font-size="11" y="264" fill="black" font-family="sans-serif" lengthAdjust="spacingAndGlyphs" textLength="242">Uncharacterized protein OS=Enterococcus ...</text>
+  <line y2="257" stroke-width="2" x1="135" x2="660" stroke="black" y1="257"/>
+  <line y2="260" stroke-width="2" x1="135" x2="135" stroke="black" y1="254"/>
+  <line y2="260" stroke-width="2" x1="660" x2="660" stroke="black" y1="254"/>
+  <text x="135" fill="black" font-size="10" y="270" font-family="sans-serif" text-anchor="middle">1</text>
+  <text x="660" font-size="10" y="270" text-anchor="end" fill="black" font-family="sans-serif" id="subjectLength">148</text>
+  <g>
+   <rect x="138" y="233" fill-opacity="0.5" fill="rgb(255,182,64)" width="522" rx="3" ry="3" height="130" id="alnOverlay"/>
+   <g>
+    <text x="115" fill="black" font-size="10" y="287" font-family="sans-serif" text-anchor="end">IPR002337</text>
+    <svg x="116" contentScriptType="text/ecmascript" y="280" width="8" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" height="10" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+						
+     <path fill="black" opacity="0.8" d="M1 0 L6 3 L1 6 Z"/>
+					
+    </svg>
+    <line x1="135" x2="660" y1="283" y2="283" stroke-dasharray="2,2" stroke="black" stroke-width="1"/>
+    <rect x="159" y="280" fill="#FFFFFF" width="497" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="680" y="280" fill="#FFFFFF" width="5" height="5" stroke="black" stroke-width="1"/>
+    <text font-style="italic" x="687" fill="black" font-size="9" y="287" font-family="sans-serif">CDD</text>
+    <text x="744" fill="black" font-size="9" y="287" font-family="sans-serif">Haemoglobin, beta-type</text>
+    <text x="115" fill="black" font-size="10" y="297" font-family="sans-serif" text-anchor="end">IPR002337</text>
+    <svg x="116" contentScriptType="text/ecmascript" y="290" width="8" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" height="10" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+						
+     <path fill="black" opacity="0.8" d="M1 0 L6 3 L1 6 Z"/>
+					
+    </svg>
+    <line x1="135" x2="660" y1="293" y2="293" stroke-dasharray="2,2" stroke="black" stroke-width="1"/>
+    <rect x="241" y="290" fill="#33CC33" width="57" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="305" y="290" fill="#33CC33" width="53" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="390" y="290" fill="#33CC33" width="60" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="468" y="290" fill="#33CC33" width="18" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="592" y="290" fill="#33CC33" width="57" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="680" y="290" fill="#33CC33" width="5" height="5" stroke="black" stroke-width="1"/>
+    <text font-style="italic" x="687" fill="black" font-size="9" y="297" font-family="sans-serif">PRINTS</text>
+    <text x="744" fill="black" font-size="9" y="297" font-family="sans-serif">Haemoglobin, beta-type</text>
+    <text x="115" fill="black" font-size="10" y="307" font-family="sans-serif" text-anchor="end">IPR012292</text>
+    <svg x="116" contentScriptType="text/ecmascript" y="300" width="8" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" height="10" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+						
+     <path fill="black" opacity="0.8" d="M1 0 L6 3 L1 6 Z"/>
+					
+    </svg>
+    <line x1="135" x2="660" y1="303" y2="303" stroke-dasharray="2,2" stroke="black" stroke-width="1"/>
+    <rect x="142" y="300" fill="#FFFFFF" width="518" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="680" y="300" fill="#FFFFFF" width="5" height="5" stroke="black" stroke-width="1"/>
+    <text font-style="italic" x="687" fill="black" font-size="9" y="307" font-family="sans-serif">CATHGENE3D</text>
+    <text x="744" fill="black" font-size="9" y="307" font-family="sans-serif">Globin/Protoglobin</text>
+    <text x="115" fill="black" font-size="10" y="317" font-family="sans-serif" text-anchor="end">IPR009050</text>
+    <svg x="116" contentScriptType="text/ecmascript" y="310" width="8" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" height="10" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+						
+     <path fill="black" opacity="0.8" d="M1 0 L6 3 L1 6 Z"/>
+					
+    </svg>
+    <line x1="135" x2="660" y1="313" y2="313" stroke-dasharray="2,2" stroke="black" stroke-width="1"/>
+    <rect x="142" y="310" fill="#000000" width="518" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="680" y="310" fill="#000000" width="5" height="5" stroke="black" stroke-width="1"/>
+    <text font-style="italic" x="687" fill="black" font-size="9" y="317" font-family="sans-serif">SSF</text>
+    <text x="744" fill="black" font-size="9" y="317" font-family="sans-serif">Globin-like superfamily</text>
+    <text x="115" fill="black" font-size="10" y="327" font-family="sans-serif" text-anchor="end">IPR000971</text>
+    <svg x="116" contentScriptType="text/ecmascript" y="320" width="8" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" height="10" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+						
+     <path fill="black" opacity="0.8" d="M1 0 L6 3 L1 6 Z"/>
+					
+    </svg>
+    <line x1="135" x2="660" y1="323" y2="323" stroke-dasharray="2,2" stroke="black" stroke-width="1"/>
+    <rect x="163" y="320" fill="#6633FF" width="369" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="680" y="320" fill="#6633FF" width="5" height="5" stroke="black" stroke-width="1"/>
+    <text font-style="italic" x="687" fill="black" font-size="9" y="327" font-family="sans-serif">PFAM</text>
+    <text x="744" fill="black" font-size="9" y="327" font-family="sans-serif">Globin</text>
+    <text x="115" fill="black" font-size="10" y="337" font-family="sans-serif" text-anchor="end">IPR000971</text>
+    <svg x="116" contentScriptType="text/ecmascript" y="330" width="8" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" height="10" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+						
+     <path fill="black" opacity="0.8" d="M1 0 L6 3 L1 6 Z"/>
+					
+    </svg>
+    <line x1="135" x2="660" y1="333" y2="333" stroke-dasharray="2,2" stroke="black" stroke-width="1"/>
+    <rect x="152" y="330" fill="#FF9933" width="508" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="680" y="330" fill="#FF9933" width="5" height="5" stroke="black" stroke-width="1"/>
+    <text font-style="italic" x="687" fill="black" font-size="9" y="337" font-family="sans-serif">PROFILE</text>
+    <text x="744" fill="black" font-size="9" y="337" font-family="sans-serif">Globin</text>
+    <text x="115" fill="black" font-size="10" y="347" font-family="sans-serif" text-anchor="end">PTHR11442</text>
+    <svg x="116" contentScriptType="text/ecmascript" y="340" width="8" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" height="10" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+						
+     <path fill="black" opacity="0.8" d="M1 0 L6 3 L1 6 Z"/>
+					
+    </svg>
+    <line x1="135" x2="660" y1="343" y2="343" stroke-dasharray="2,2" stroke="black" stroke-width="1"/>
+    <rect x="138" y="340" fill="grey" width="522" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="680" y="340" fill="grey" width="5" height="5" stroke="black" stroke-width="1"/>
+    <text font-style="italic" x="687" fill="black" font-size="9" y="347" font-family="sans-serif">Unclassified</text>
+    <text x="115" fill="black" font-size="10" y="357" font-family="sans-serif" text-anchor="end">PTHR11442:SF7</text>
+    <svg x="116" contentScriptType="text/ecmascript" y="350" width="8" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" height="10" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+						
+     <path fill="black" opacity="0.8" d="M1 0 L6 3 L1 6 Z"/>
+					
+    </svg>
+    <line x1="135" x2="660" y1="353" y2="353" stroke-dasharray="2,2" stroke="black" stroke-width="1"/>
+    <rect x="138" y="350" fill="grey" width="522" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="680" y="350" fill="grey" width="5" height="5" stroke="black" stroke-width="1"/>
+    <text font-style="italic" x="687" fill="black" font-size="9" y="357" font-family="sans-serif">Unclassified</text>
+   </g>
+   <rect x="138" y="233" fill-opacity="0" width="522" rx="3" ry="3" height="130" id="alnBorder" stroke="rgb(255,182,64)" stroke-width="2" stroke-opacity="0.8"/>
+  </g>
+  <use x="0" y="372" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#querySequenceBox" xlink:type="simple" xlink:actuate="onLoad" xlink:show="embed"/>
+  <text x="660" font-size="9" y="390" text-anchor="end" fill="black" font-family="sans-serif" id="sequenceLength">147</text>
+  <use x="0" y="390" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#subjectSequenceBox" xlink:type="simple" xlink:actuate="onLoad" xlink:show="embed"/>
+  <text x="8" fill="black" font-size="11" y="400" font-family="sans-serif">A0A2V2PLN6_ENTFC</text>
+  <text x="39" fill="black" font-size="9" y="412" font-family="sans-serif">A0A2V2PLN6</text>
+  <text x="677" font-size="11" y="404" fill="black" font-family="sans-serif" lengthAdjust="spacingAndGlyphs" textLength="242">Uncharacterized protein OS=Enterococcus ...</text>
+  <line y2="397" stroke-width="2" x1="138" x2="660" stroke="black" y1="397"/>
+  <line y2="400" stroke-width="2" x1="138" x2="138" stroke="black" y1="394"/>
+  <line y2="400" stroke-width="2" x1="660" x2="660" stroke="black" y1="394"/>
+  <text x="138" fill="black" font-size="10" y="410" font-family="sans-serif" text-anchor="middle">1</text>
+  <text x="660" font-size="10" y="410" text-anchor="end" fill="black" font-family="sans-serif" id="subjectLength">143</text>
+  <g>
+   <rect x="159" y="373" fill-opacity="0.5" fill="rgb(64,255,248)" width="496" rx="3" ry="3" height="140" id="alnOverlay"/>
+   <g>
+    <text x="115" fill="black" font-size="10" y="427" font-family="sans-serif" text-anchor="end">IPR002338</text>
+    <svg x="116" contentScriptType="text/ecmascript" y="420" width="8" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" height="10" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+						
+     <path fill="black" opacity="0.8" d="M1 0 L6 3 L1 6 Z"/>
+					
+    </svg>
+    <line x1="138" x2="660" y1="423" y2="423" stroke-dasharray="2,2" stroke="black" stroke-width="1"/>
+    <rect x="148" y="420" fill="#FFFFFF" width="511" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="680" y="420" fill="#FFFFFF" width="5" height="5" stroke="black" stroke-width="1"/>
+    <text font-style="italic" x="687" fill="black" font-size="9" y="427" font-family="sans-serif">CDD</text>
+    <text x="744" fill="black" font-size="9" y="427" font-family="sans-serif">Haemoglobin, alpha-type</text>
+    <text x="115" fill="black" font-size="10" y="437" font-family="sans-serif" text-anchor="end">IPR002338</text>
+    <svg x="116" contentScriptType="text/ecmascript" y="430" width="8" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" height="10" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+						
+     <path fill="black" opacity="0.8" d="M1 0 L6 3 L1 6 Z"/>
+					
+    </svg>
+    <line x1="138" x2="660" y1="433" y2="433" stroke-dasharray="2,2" stroke="black" stroke-width="1"/>
+    <rect x="196" y="430" fill="#33CC33" width="44" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="258" y="430" fill="#33CC33" width="36" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="316" y="430" fill="#33CC33" width="33" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="415" y="430" fill="#33CC33" width="47" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="590" y="430" fill="#33CC33" width="58" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="680" y="430" fill="#33CC33" width="5" height="5" stroke="black" stroke-width="1"/>
+    <text font-style="italic" x="687" fill="black" font-size="9" y="437" font-family="sans-serif">PRINTS</text>
+    <text x="744" fill="black" font-size="9" y="437" font-family="sans-serif">Haemoglobin, alpha-type</text>
+    <text x="115" fill="black" font-size="10" y="447" font-family="sans-serif" text-anchor="end">IPR012292</text>
+    <svg x="116" contentScriptType="text/ecmascript" y="440" width="8" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" height="10" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+						
+     <path fill="black" opacity="0.8" d="M1 0 L6 3 L1 6 Z"/>
+					
+    </svg>
+    <line x1="138" x2="660" y1="443" y2="443" stroke-dasharray="2,2" stroke="black" stroke-width="1"/>
+    <rect x="141" y="440" fill="#FFFFFF" width="518" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="680" y="440" fill="#FFFFFF" width="5" height="5" stroke="black" stroke-width="1"/>
+    <text font-style="italic" x="687" fill="black" font-size="9" y="447" font-family="sans-serif">CATHGENE3D</text>
+    <text x="744" fill="black" font-size="9" y="447" font-family="sans-serif">Globin/Protoglobin</text>
+    <text x="115" fill="black" font-size="10" y="457" font-family="sans-serif" text-anchor="end">IPR009050</text>
+    <svg x="116" contentScriptType="text/ecmascript" y="450" width="8" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" height="10" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+						
+     <path fill="black" opacity="0.8" d="M1 0 L6 3 L1 6 Z"/>
+					
+    </svg>
+    <line x1="138" x2="660" y1="453" y2="453" stroke-dasharray="2,2" stroke="black" stroke-width="1"/>
+    <rect x="145" y="450" fill="#000000" width="514" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="680" y="450" fill="#000000" width="5" height="5" stroke="black" stroke-width="1"/>
+    <text font-style="italic" x="687" fill="black" font-size="9" y="457" font-family="sans-serif">SSF</text>
+    <text x="744" fill="black" font-size="9" y="457" font-family="sans-serif">Globin-like superfamily</text>
+    <text x="115" fill="black" font-size="10" y="467" font-family="sans-serif" text-anchor="end">IPR002339</text>
+    <svg x="116" contentScriptType="text/ecmascript" y="460" width="8" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" height="10" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+						
+     <path fill="black" opacity="0.8" d="M1 0 L6 3 L1 6 Z"/>
+					
+    </svg>
+    <line x1="138" x2="660" y1="463" y2="463" stroke-dasharray="2,2" stroke="black" stroke-width="1"/>
+    <rect x="152" y="460" fill="#33CC33" width="91" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="407" y="460" fill="#33CC33" width="37" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="524" y="460" fill="#33CC33" width="40" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="680" y="460" fill="#33CC33" width="5" height="5" stroke="black" stroke-width="1"/>
+    <text font-style="italic" x="687" fill="black" font-size="9" y="467" font-family="sans-serif">PRINTS</text>
+    <text x="744" fill="black" font-size="9" y="467" font-family="sans-serif">Haemoglobin, pi</text>
+    <text x="115" fill="black" font-size="10" y="477" font-family="sans-serif" text-anchor="end">IPR000971</text>
+    <svg x="116" contentScriptType="text/ecmascript" y="470" width="8" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" height="10" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+						
+     <path fill="black" opacity="0.8" d="M1 0 L6 3 L1 6 Z"/>
+					
+    </svg>
+    <line x1="138" x2="660" y1="473" y2="473" stroke-dasharray="2,2" stroke="black" stroke-width="1"/>
+    <rect x="163" y="470" fill="#6633FF" width="365" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="680" y="470" fill="#6633FF" width="5" height="5" stroke="black" stroke-width="1"/>
+    <text font-style="italic" x="687" fill="black" font-size="9" y="477" font-family="sans-serif">PFAM</text>
+    <text x="744" fill="black" font-size="9" y="477" font-family="sans-serif">Globin</text>
+    <text x="115" fill="black" font-size="10" y="487" font-family="sans-serif" text-anchor="end">IPR000971</text>
+    <svg x="116" contentScriptType="text/ecmascript" y="480" width="8" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" height="10" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+						
+     <path fill="black" opacity="0.8" d="M1 0 L6 3 L1 6 Z"/>
+					
+    </svg>
+    <line x1="138" x2="660" y1="483" y2="483" stroke-dasharray="2,2" stroke="black" stroke-width="1"/>
+    <rect x="148" y="480" fill="#FF9933" width="511" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="680" y="480" fill="#FF9933" width="5" height="5" stroke="black" stroke-width="1"/>
+    <text font-style="italic" x="687" fill="black" font-size="9" y="487" font-family="sans-serif">PROFILE</text>
+    <text x="744" fill="black" font-size="9" y="487" font-family="sans-serif">Globin</text>
+    <text x="115" fill="black" font-size="10" y="497" font-family="sans-serif" text-anchor="end">PTHR11442:SF48</text>
+    <svg x="116" contentScriptType="text/ecmascript" y="490" width="8" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" height="10" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+						
+     <path fill="black" opacity="0.8" d="M1 0 L6 3 L1 6 Z"/>
+					
+    </svg>
+    <line x1="138" x2="660" y1="493" y2="493" stroke-dasharray="2,2" stroke="black" stroke-width="1"/>
+    <rect x="141" y="490" fill="grey" width="518" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="680" y="490" fill="grey" width="5" height="5" stroke="black" stroke-width="1"/>
+    <text font-style="italic" x="687" fill="black" font-size="9" y="497" font-family="sans-serif">Unclassified</text>
+    <text x="115" fill="black" font-size="10" y="507" font-family="sans-serif" text-anchor="end">PTHR11442</text>
+    <svg x="116" contentScriptType="text/ecmascript" y="500" width="8" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" height="10" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+						
+     <path fill="black" opacity="0.8" d="M1 0 L6 3 L1 6 Z"/>
+					
+    </svg>
+    <line x1="138" x2="660" y1="503" y2="503" stroke-dasharray="2,2" stroke="black" stroke-width="1"/>
+    <rect x="141" y="500" fill="grey" width="518" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="680" y="500" fill="grey" width="5" height="5" stroke="black" stroke-width="1"/>
+    <text font-style="italic" x="687" fill="black" font-size="9" y="507" font-family="sans-serif">Unclassified</text>
+   </g>
+   <rect x="159" y="373" fill-opacity="0" width="496" rx="3" ry="3" height="140" id="alnBorder" stroke="rgb(64,255,248)" stroke-width="2" stroke-opacity="0.8"/>
+  </g>
+  <use x="0" y="522" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#querySequenceBox" xlink:type="simple" xlink:actuate="onLoad" xlink:show="embed"/>
+  <text x="660" font-size="9" y="540" text-anchor="end" fill="black" font-family="sans-serif" id="sequenceLength">147</text>
+  <use x="0" y="540" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#subjectSequenceBox" xlink:type="simple" xlink:actuate="onLoad" xlink:show="embed"/>
+  <text x="8" fill="black" font-size="11" y="550" font-family="sans-serif">A0A2V2PES2_ENTFC</text>
+  <text x="39" fill="black" font-size="9" y="562" font-family="sans-serif">A0A2V2PES2</text>
+  <text x="677" font-size="11" y="554" fill="black" font-family="sans-serif" lengthAdjust="spacingAndGlyphs" textLength="242">Uncharacterized protein OS=Enterococcus ...</text>
+  <line y2="547" stroke-width="2" x1="138" x2="660" stroke="black" y1="547"/>
+  <line y2="550" stroke-width="2" x1="138" x2="138" stroke="black" y1="544"/>
+  <line y2="550" stroke-width="2" x1="660" x2="660" stroke="black" y1="544"/>
+  <text x="138" fill="black" font-size="10" y="560" font-family="sans-serif" text-anchor="middle">1</text>
+  <text x="660" font-size="10" y="560" text-anchor="end" fill="black" font-family="sans-serif" id="subjectLength">143</text>
+  <g>
+   <rect x="152" y="523" fill-opacity="0.5" fill="rgb(64,221,255)" width="503" rx="3" ry="3" height="140" id="alnOverlay"/>
+   <g>
+    <text x="115" fill="black" font-size="10" y="577" font-family="sans-serif" text-anchor="end">IPR002338</text>
+    <svg x="116" contentScriptType="text/ecmascript" y="570" width="8" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" height="10" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+						
+     <path fill="black" opacity="0.8" d="M1 0 L6 3 L1 6 Z"/>
+					
+    </svg>
+    <line x1="138" x2="660" y1="573" y2="573" stroke-dasharray="2,2" stroke="black" stroke-width="1"/>
+    <rect x="148" y="570" fill="#FFFFFF" width="511" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="680" y="570" fill="#FFFFFF" width="5" height="5" stroke="black" stroke-width="1"/>
+    <text font-style="italic" x="687" fill="black" font-size="9" y="577" font-family="sans-serif">CDD</text>
+    <text x="744" fill="black" font-size="9" y="577" font-family="sans-serif">Haemoglobin, alpha-type</text>
+    <text x="115" fill="black" font-size="10" y="587" font-family="sans-serif" text-anchor="end">IPR002338</text>
+    <svg x="116" contentScriptType="text/ecmascript" y="580" width="8" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" height="10" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+						
+     <path fill="black" opacity="0.8" d="M1 0 L6 3 L1 6 Z"/>
+					
+    </svg>
+    <line x1="138" x2="660" y1="583" y2="583" stroke-dasharray="2,2" stroke="black" stroke-width="1"/>
+    <rect x="196" y="580" fill="#33CC33" width="44" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="258" y="580" fill="#33CC33" width="36" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="316" y="580" fill="#33CC33" width="33" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="415" y="580" fill="#33CC33" width="47" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="590" y="580" fill="#33CC33" width="58" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="680" y="580" fill="#33CC33" width="5" height="5" stroke="black" stroke-width="1"/>
+    <text font-style="italic" x="687" fill="black" font-size="9" y="587" font-family="sans-serif">PRINTS</text>
+    <text x="744" fill="black" font-size="9" y="587" font-family="sans-serif">Haemoglobin, alpha-type</text>
+    <text x="115" fill="black" font-size="10" y="597" font-family="sans-serif" text-anchor="end">IPR012292</text>
+    <svg x="116" contentScriptType="text/ecmascript" y="590" width="8" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" height="10" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+						
+     <path fill="black" opacity="0.8" d="M1 0 L6 3 L1 6 Z"/>
+					
+    </svg>
+    <line x1="138" x2="660" y1="593" y2="593" stroke-dasharray="2,2" stroke="black" stroke-width="1"/>
+    <rect x="141" y="590" fill="#FFFFFF" width="518" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="680" y="590" fill="#FFFFFF" width="5" height="5" stroke="black" stroke-width="1"/>
+    <text font-style="italic" x="687" fill="black" font-size="9" y="597" font-family="sans-serif">CATHGENE3D</text>
+    <text x="744" fill="black" font-size="9" y="597" font-family="sans-serif">Globin/Protoglobin</text>
+    <text x="115" fill="black" font-size="10" y="607" font-family="sans-serif" text-anchor="end">IPR009050</text>
+    <svg x="116" contentScriptType="text/ecmascript" y="600" width="8" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" height="10" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+						
+     <path fill="black" opacity="0.8" d="M1 0 L6 3 L1 6 Z"/>
+					
+    </svg>
+    <line x1="138" x2="660" y1="603" y2="603" stroke-dasharray="2,2" stroke="black" stroke-width="1"/>
+    <rect x="145" y="600" fill="#000000" width="514" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="680" y="600" fill="#000000" width="5" height="5" stroke="black" stroke-width="1"/>
+    <text font-style="italic" x="687" fill="black" font-size="9" y="607" font-family="sans-serif">SSF</text>
+    <text x="744" fill="black" font-size="9" y="607" font-family="sans-serif">Globin-like superfamily</text>
+    <text x="115" fill="black" font-size="10" y="617" font-family="sans-serif" text-anchor="end">IPR002339</text>
+    <svg x="116" contentScriptType="text/ecmascript" y="610" width="8" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" height="10" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+						
+     <path fill="black" opacity="0.8" d="M1 0 L6 3 L1 6 Z"/>
+					
+    </svg>
+    <line x1="138" x2="660" y1="613" y2="613" stroke-dasharray="2,2" stroke="black" stroke-width="1"/>
+    <rect x="152" y="610" fill="#33CC33" width="91" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="320" y="610" fill="#33CC33" width="33" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="407" y="610" fill="#33CC33" width="37" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="524" y="610" fill="#33CC33" width="40" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="680" y="610" fill="#33CC33" width="5" height="5" stroke="black" stroke-width="1"/>
+    <text font-style="italic" x="687" fill="black" font-size="9" y="617" font-family="sans-serif">PRINTS</text>
+    <text x="744" fill="black" font-size="9" y="617" font-family="sans-serif">Haemoglobin, pi</text>
+    <text x="115" fill="black" font-size="10" y="627" font-family="sans-serif" text-anchor="end">IPR000971</text>
+    <svg x="116" contentScriptType="text/ecmascript" y="620" width="8" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" height="10" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+						
+     <path fill="black" opacity="0.8" d="M1 0 L6 3 L1 6 Z"/>
+					
+    </svg>
+    <line x1="138" x2="660" y1="623" y2="623" stroke-dasharray="2,2" stroke="black" stroke-width="1"/>
+    <rect x="163" y="620" fill="#6633FF" width="365" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="680" y="620" fill="#6633FF" width="5" height="5" stroke="black" stroke-width="1"/>
+    <text font-style="italic" x="687" fill="black" font-size="9" y="627" font-family="sans-serif">PFAM</text>
+    <text x="744" fill="black" font-size="9" y="627" font-family="sans-serif">Globin</text>
+    <text x="115" fill="black" font-size="10" y="637" font-family="sans-serif" text-anchor="end">IPR000971</text>
+    <svg x="116" contentScriptType="text/ecmascript" y="630" width="8" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" height="10" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+						
+     <path fill="black" opacity="0.8" d="M1 0 L6 3 L1 6 Z"/>
+					
+    </svg>
+    <line x1="138" x2="660" y1="633" y2="633" stroke-dasharray="2,2" stroke="black" stroke-width="1"/>
+    <rect x="148" y="630" fill="#FF9933" width="511" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="680" y="630" fill="#FF9933" width="5" height="5" stroke="black" stroke-width="1"/>
+    <text font-style="italic" x="687" fill="black" font-size="9" y="637" font-family="sans-serif">PROFILE</text>
+    <text x="744" fill="black" font-size="9" y="637" font-family="sans-serif">Globin</text>
+    <text x="115" fill="black" font-size="10" y="647" font-family="sans-serif" text-anchor="end">PTHR11442:SF48</text>
+    <svg x="116" contentScriptType="text/ecmascript" y="640" width="8" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" height="10" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+						
+     <path fill="black" opacity="0.8" d="M1 0 L6 3 L1 6 Z"/>
+					
+    </svg>
+    <line x1="138" x2="660" y1="643" y2="643" stroke-dasharray="2,2" stroke="black" stroke-width="1"/>
+    <rect x="141" y="640" fill="grey" width="518" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="680" y="640" fill="grey" width="5" height="5" stroke="black" stroke-width="1"/>
+    <text font-style="italic" x="687" fill="black" font-size="9" y="647" font-family="sans-serif">Unclassified</text>
+    <text x="115" fill="black" font-size="10" y="657" font-family="sans-serif" text-anchor="end">PTHR11442</text>
+    <svg x="116" contentScriptType="text/ecmascript" y="650" width="8" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" height="10" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+						
+     <path fill="black" opacity="0.8" d="M1 0 L6 3 L1 6 Z"/>
+					
+    </svg>
+    <line x1="138" x2="660" y1="653" y2="653" stroke-dasharray="2,2" stroke="black" stroke-width="1"/>
+    <rect x="141" y="650" fill="grey" width="518" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="680" y="650" fill="grey" width="5" height="5" stroke="black" stroke-width="1"/>
+    <text font-style="italic" x="687" fill="black" font-size="9" y="657" font-family="sans-serif">Unclassified</text>
+   </g>
+   <rect x="152" y="523" fill-opacity="0" width="503" rx="3" ry="3" height="140" id="alnBorder" stroke="rgb(64,221,255)" stroke-width="2" stroke-opacity="0.8"/>
+  </g>
+  <use x="0" y="672" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#querySequenceBox" xlink:type="simple" xlink:actuate="onLoad" xlink:show="embed"/>
+  <text x="660" font-size="9" y="690" text-anchor="end" fill="black" font-family="sans-serif" id="sequenceLength">147</text>
+  <use x="0" y="690" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#subjectSequenceBox" xlink:type="simple" xlink:actuate="onLoad" xlink:show="embed"/>
+  <text x="8" fill="black" font-size="11" y="700" font-family="sans-serif">A0A2V2PDG0_ENTFC</text>
+  <text x="39" fill="black" font-size="9" y="712" font-family="sans-serif">A0A2V2PDG0</text>
+  <text x="677" font-size="11" y="704" fill="black" font-family="sans-serif" lengthAdjust="spacingAndGlyphs" textLength="242">Uncharacterized protein OS=Enterococcus ...</text>
+  <line y2="697" stroke-width="2" x1="138" x2="660" stroke="black" y1="697"/>
+  <line y2="700" stroke-width="2" x1="138" x2="138" stroke="black" y1="694"/>
+  <line y2="700" stroke-width="2" x1="660" x2="660" stroke="black" y1="694"/>
+  <text x="138" fill="black" font-size="10" y="710" font-family="sans-serif" text-anchor="middle">1</text>
+  <text x="660" font-size="10" y="710" text-anchor="end" fill="black" font-family="sans-serif" id="subjectLength">143</text>
+  <g>
+   <rect x="152" y="673" fill-opacity="0.5" fill="rgb(64,64,255)" width="503" rx="3" ry="3" height="130" id="alnOverlay"/>
+   <g>
+    <text x="115" fill="black" font-size="10" y="727" font-family="sans-serif" text-anchor="end">IPR002338</text>
+    <svg x="116" contentScriptType="text/ecmascript" y="720" width="8" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" height="10" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+						
+     <path fill="black" opacity="0.8" d="M1 0 L6 3 L1 6 Z"/>
+					
+    </svg>
+    <line x1="138" x2="660" y1="723" y2="723" stroke-dasharray="2,2" stroke="black" stroke-width="1"/>
+    <rect x="148" y="720" fill="#FFFFFF" width="511" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="680" y="720" fill="#FFFFFF" width="5" height="5" stroke="black" stroke-width="1"/>
+    <text font-style="italic" x="687" fill="black" font-size="9" y="727" font-family="sans-serif">CDD</text>
+    <text x="744" fill="black" font-size="9" y="727" font-family="sans-serif">Haemoglobin, alpha-type</text>
+    <text x="115" fill="black" font-size="10" y="737" font-family="sans-serif" text-anchor="end">IPR002338</text>
+    <svg x="116" contentScriptType="text/ecmascript" y="730" width="8" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" height="10" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+						
+     <path fill="black" opacity="0.8" d="M1 0 L6 3 L1 6 Z"/>
+					
+    </svg>
+    <line x1="138" x2="660" y1="733" y2="733" stroke-dasharray="2,2" stroke="black" stroke-width="1"/>
+    <rect x="196" y="730" fill="#33CC33" width="44" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="258" y="730" fill="#33CC33" width="36" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="316" y="730" fill="#33CC33" width="33" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="415" y="730" fill="#33CC33" width="47" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="590" y="730" fill="#33CC33" width="58" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="680" y="730" fill="#33CC33" width="5" height="5" stroke="black" stroke-width="1"/>
+    <text font-style="italic" x="687" fill="black" font-size="9" y="737" font-family="sans-serif">PRINTS</text>
+    <text x="744" fill="black" font-size="9" y="737" font-family="sans-serif">Haemoglobin, alpha-type</text>
+    <text x="115" fill="black" font-size="10" y="747" font-family="sans-serif" text-anchor="end">IPR012292</text>
+    <svg x="116" contentScriptType="text/ecmascript" y="740" width="8" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" height="10" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+						
+     <path fill="black" opacity="0.8" d="M1 0 L6 3 L1 6 Z"/>
+					
+    </svg>
+    <line x1="138" x2="660" y1="743" y2="743" stroke-dasharray="2,2" stroke="black" stroke-width="1"/>
+    <rect x="141" y="740" fill="#FFFFFF" width="518" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="680" y="740" fill="#FFFFFF" width="5" height="5" stroke="black" stroke-width="1"/>
+    <text font-style="italic" x="687" fill="black" font-size="9" y="747" font-family="sans-serif">CATHGENE3D</text>
+    <text x="744" fill="black" font-size="9" y="747" font-family="sans-serif">Globin/Protoglobin</text>
+    <text x="115" fill="black" font-size="10" y="757" font-family="sans-serif" text-anchor="end">IPR009050</text>
+    <svg x="116" contentScriptType="text/ecmascript" y="750" width="8" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" height="10" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+						
+     <path fill="black" opacity="0.8" d="M1 0 L6 3 L1 6 Z"/>
+					
+    </svg>
+    <line x1="138" x2="660" y1="753" y2="753" stroke-dasharray="2,2" stroke="black" stroke-width="1"/>
+    <rect x="145" y="750" fill="#000000" width="514" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="680" y="750" fill="#000000" width="5" height="5" stroke="black" stroke-width="1"/>
+    <text font-style="italic" x="687" fill="black" font-size="9" y="757" font-family="sans-serif">SSF</text>
+    <text x="744" fill="black" font-size="9" y="757" font-family="sans-serif">Globin-like superfamily</text>
+    <text x="115" fill="black" font-size="10" y="767" font-family="sans-serif" text-anchor="end">IPR000971</text>
+    <svg x="116" contentScriptType="text/ecmascript" y="760" width="8" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" height="10" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+						
+     <path fill="black" opacity="0.8" d="M1 0 L6 3 L1 6 Z"/>
+					
+    </svg>
+    <line x1="138" x2="660" y1="763" y2="763" stroke-dasharray="2,2" stroke="black" stroke-width="1"/>
+    <rect x="163" y="760" fill="#6633FF" width="365" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="680" y="760" fill="#6633FF" width="5" height="5" stroke="black" stroke-width="1"/>
+    <text font-style="italic" x="687" fill="black" font-size="9" y="767" font-family="sans-serif">PFAM</text>
+    <text x="744" fill="black" font-size="9" y="767" font-family="sans-serif">Globin</text>
+    <text x="115" fill="black" font-size="10" y="777" font-family="sans-serif" text-anchor="end">IPR000971</text>
+    <svg x="116" contentScriptType="text/ecmascript" y="770" width="8" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" height="10" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+						
+     <path fill="black" opacity="0.8" d="M1 0 L6 3 L1 6 Z"/>
+					
+    </svg>
+    <line x1="138" x2="660" y1="773" y2="773" stroke-dasharray="2,2" stroke="black" stroke-width="1"/>
+    <rect x="148" y="770" fill="#FF9933" width="511" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="680" y="770" fill="#FF9933" width="5" height="5" stroke="black" stroke-width="1"/>
+    <text font-style="italic" x="687" fill="black" font-size="9" y="777" font-family="sans-serif">PROFILE</text>
+    <text x="744" fill="black" font-size="9" y="777" font-family="sans-serif">Globin</text>
+    <text x="115" fill="black" font-size="10" y="787" font-family="sans-serif" text-anchor="end">PTHR11442:SF48</text>
+    <svg x="116" contentScriptType="text/ecmascript" y="780" width="8" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" height="10" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+						
+     <path fill="black" opacity="0.8" d="M1 0 L6 3 L1 6 Z"/>
+					
+    </svg>
+    <line x1="138" x2="660" y1="783" y2="783" stroke-dasharray="2,2" stroke="black" stroke-width="1"/>
+    <rect x="141" y="780" fill="grey" width="518" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="680" y="780" fill="grey" width="5" height="5" stroke="black" stroke-width="1"/>
+    <text font-style="italic" x="687" fill="black" font-size="9" y="787" font-family="sans-serif">Unclassified</text>
+    <text x="115" fill="black" font-size="10" y="797" font-family="sans-serif" text-anchor="end">PTHR11442</text>
+    <svg x="116" contentScriptType="text/ecmascript" y="790" width="8" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" height="10" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+						
+     <path fill="black" opacity="0.8" d="M1 0 L6 3 L1 6 Z"/>
+					
+    </svg>
+    <line x1="138" x2="660" y1="793" y2="793" stroke-dasharray="2,2" stroke="black" stroke-width="1"/>
+    <rect x="141" y="790" fill="grey" width="518" rx="3" ry="3" height="6" stroke="black"/>
+    <rect x="680" y="790" fill="grey" width="5" height="5" stroke="black" stroke-width="1"/>
+    <text font-style="italic" x="687" fill="black" font-size="9" y="797" font-family="sans-serif">Unclassified</text>
+   </g>
+   <rect x="152" y="673" fill-opacity="0" width="503" rx="3" ry="3" height="130" id="alnBorder" stroke="rgb(64,64,255)" stroke-width="2" stroke-opacity="0.8"/>
+  </g>
+ </g>
+	
+	
+ <use x="112" y="855" fill="url(#colorscale)" width="824" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#colorscaleBox" xlink:type="simple" xlink:actuate="onLoad" height="70" id="bottom" xlink:show="embed"/>
+
+</svg>

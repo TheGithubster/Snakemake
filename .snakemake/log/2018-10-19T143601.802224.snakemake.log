@@ -1,0 +1,16 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	select_fasta
+	1
+
+[Fri Oct 19 14:36:01 2018]
+Job 0: <-- Starting file stream from root -->
+
+[Fri Oct 19 14:36:04 2018]
+Finished job 0.
+1 of 1 steps (100%) done
+Complete log: /home/thomas/Desktop/Snakemake/.snakemake/log/2018-10-19T143601.802224.snakemake.log
