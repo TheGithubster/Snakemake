@@ -1,3 +1,0 @@
-TypeError in line 10 of /home/thomas/Desktop/Snakemake/Snakefile:
-message() missing 1 required positional argument: 'message'
-  File "/home/thomas/Desktop/Snakemake/Snakefile", line 10, in <module>

@@ -1,3 +1,0 @@
-AttributeError in line 7 of /home/thomas/Desktop/Snakemake/Snakefile:
-'Rules' object has no attribute 'script'
-  File "/home/thomas/Desktop/Snakemake/Snakefile", line 7, in <module>

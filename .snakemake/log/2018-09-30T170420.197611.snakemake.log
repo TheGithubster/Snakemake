@@ -1,3 +1,0 @@
-WorkflowError in line 6 of /home/thomas/Desktop/Snakemake/Snakefile:
-Config file config.yaml not found.
-  File "/home/thomas/Desktop/Snakemake/Snakefile", line 6, in <module>

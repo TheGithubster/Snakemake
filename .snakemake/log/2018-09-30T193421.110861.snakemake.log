@@ -1,2 +1,0 @@
-SyntaxError in line 12 of /home/thomas/Desktop/Snakemake/Snakefile:
-No rule keywords allowed after run/shell/script/wrapper/cwl in rule select_fasta. (Snakefile, line 12)

@@ -1,3 +1,0 @@
-KeyError in line 18 of /home/thomas/Desktop/Snakemake/Snakefile:
-'blast_max_alignments'
-  File "/home/thomas/Desktop/Snakemake/Snakefile", line 18, in <module>

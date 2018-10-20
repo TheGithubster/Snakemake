@@ -1,0 +1,3 @@
+NameError in line 11 of /home/thomas/Desktop/Snakemake/Snakefile:
+name 'scripts' is not defined
+  File "/home/thomas/Desktop/Snakemake/Snakefile", line 11, in <module>

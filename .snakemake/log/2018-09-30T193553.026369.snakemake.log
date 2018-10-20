@@ -1,3 +1,0 @@
-NameError in line 20 of /home/thomas/Desktop/Snakemake/Snakefile:
-name 'rule' is not defined
-  File "/home/thomas/Desktop/Snakemake/Snakefile", line 20, in <module>

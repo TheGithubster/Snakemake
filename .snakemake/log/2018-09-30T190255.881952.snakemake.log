@@ -1,4 +1,0 @@
-Building DAG of jobs...
-MissingInputException in line 13 of /home/thomas/Desktop/Snakemake/Snakefile:
-Missing input files for rule blast:
-scripts/copy.fa
