@@ -1,0 +1,105 @@
+<?xml version='1.0'?>
+<EBIApplicationResult xmlns="http://www.ebi.ac.uk/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ebi.ac.uk/Tools/common/schema/ApplicationResult.xsd">
+ <Header>
+  <program name="blastp" version="BLASTP 2.7.1+"/>
+  <commandLine command="/nfs/public/ro/es/appbin-hxwp/linux-x86_64/ncbi-blast-2.7.1+/bin/blastp -db &quot;uniprotkb_bacteria&quot; -query ncbiblast-R20181117-151919-0522-28223776-p2m.sequence  -num_threads 32 -outfmt 11 -out ncbiblast-R20181117-151919-0522-28223776-p2m.archive -num_alignments 5 -seg no -comp_based_stats F"/>
+  <parameters>
+   <sequences total="1">
+    <sequence number="1" name="sp|P69892|HBG2_HUMAN Hemoglobin subunit gamma-2 OS=Homo sapiens OX=9606 GN=HBG2 PE=1 SV=2" type="PROTEIN" length="147"/>
+   </sequences>
+   <databases total="1" sequences="94289756" letters="29569663161">
+    <database number="1" name="uniprotkb_bacteria" type="PROTEIN"/>
+   </databases>
+   <alignments>5</alignments>
+   <expectationUpper>10.0</expectationUpper>
+   <filter>F</filter>
+   <gapExtension>1.0</gapExtension>
+   <gapOpen>11.0</gapOpen>
+   <matrix>BLOSUM62</matrix>
+  </parameters>
+  <timeInfo start="2018-11-17T15:19:20+00:00" end="2018-11-17T15:24:48+00:00" search="P0Y0M0DT0H5M28.000S"/>
+ </Header>
+ <SequenceSimilaritySearchResult>
+  <hits total="5">
+   <hit number="1" database="TR" id="A0A2V2PAW4_ENTFC" ac="A0A2V2PAW4" length="147" description="Uncharacterized protein OS=Enterococcus faecium OX=1352 GN=DKP78_14725 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>436</score>
+      <bits>172.555</bits>
+      <expectation>7.6E-53</expectation>
+      <identity>52.7</identity>
+      <positives>76.7</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="146">MGHFTEEDKATITSLWGKVNVEDAGGETLGRLLVVYPWTQRFFDSFGNLSSASAIMGNPKVKAHGKKVLTSLGDAIKHLDDLKGTFAQLSELHCDKLHVDPENFKLLGNVLVTVLAIHFGKEFTPEVQASWQKMVTGVASALSSRY</querySeq>
+      <pattern>M  +T++++ TI S+W K+NV++ G + L R+L+VYPWTQR+F SFG+LSSA+A++GN KV  HGK VL +L   +K++DD+ GT+A LS+LHC KL+VDP+NF+LL + L  V+A  FG  F+P+VQA+WQK ++ V  AL S+Y</pattern>
+      <matchSeq start="1" end="146">MVDWTDKERGTIASVWAKINVDEIGPQALARVLIVYPWTQRYFGSFGDLSSAAAVLGNGKVANHGKTVLKALDKGVKNMDDVTGTYAPLSQLHCLKLNVDPDNFRLLADCLTIVIATKFGAAFSPQVQATWQKFLSSVVIALGSQY</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="2" database="TR" id="A0A2V2PBW1_ENTFC" ac="A0A2V2PBW1" length="148" description="Uncharacterized protein OS=Enterococcus faecium OX=1352 GN=DKP78_14490 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>391</score>
+      <bits>155.221</bits>
+      <expectation>5.4E-46</expectation>
+      <identity>47.3</identity>
+      <positives>70.9</positives>
+      <gaps>1</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="147">MGHFTEEDKATITSLWGKVNVEDAGGETLGRLLVVYPWTQRFFDSFGNLSSASAIMGNPKVKAHGKKVLTSLGDAIKHLDDLKGTFAQLSELHCDKLHVDPENFKLLGNVLVTVLAIHFGKE-FTPEVQASWQKMVTGVASALSSRYH</querySeq>
+      <pattern>M  +T+ +++ I  LWGK+NV++ G + L R+L+V+PWTQR F +FGNLS+++AIMGN KV  HGK V+  L  A+K+LDD+K  + +LS +H +KLHVDP+NF+ L + +   +A+ FG   FT + Q +WQK ++ V SAL  +YH</pattern>
+      <matchSeq start="1" end="148">MVDWTDAERSAIQGLWGKINVDEIGPQALARVLIVFPWTQRHFSTFGNLSNSAAIMGNAKVAQHGKTVMGGLDRAVKNLDDIKNVYKELSVMHSEKLHVDPDNFRNLADCITVCVAMKFGPSVFTADAQEAWQKFLSVVVSALGRQYH</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="3" database="TR" id="A0A2V2PLN6_ENTFC" ac="A0A2V2PLN6" length="143" description="Uncharacterized protein OS=Enterococcus faecium OX=1352 GN=DKP78_14635 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>308</score>
+      <bits>123.25</bits>
+      <expectation>1.8E-33</expectation>
+      <identity>41.5</identity>
+      <positives>64.8</positives>
+      <gaps>5</gaps>
+      <strand>none/none</strand>
+      <querySeq start="7" end="146">EDKATITSLWGKVN--VEDAGGETLGRLLVVYPWTQRFFDSFGNLSSASAIMGNPKVKAHGKKVLTSLGDAIKHLDDLKGTFAQLSELHCDKLHVDPENFKLLGNVLVTVLAIHFGKEFTPEVQASWQKMVTGVASALSSRY</querySeq>
+      <pattern>+DKA + ++WGK++   ++ G E LGR+L VYP T+ +F  + ++S+     G+  VK HGK ++ ++GDA+  +DDL G  A LS+LH  KL +DP NFK+L + L+ V+ + F  +FTP++Q S  K    VA ALS +Y</pattern>
+      <matchSeq start="6" end="142">KDKANVKAIWGKISSKADEIGAEALGRMLTVYPQTKAYFSHWADVSA-----GSGPVKKHGKTIMAAVGDAVGKMDDLVGGLANLSDLHAFKLRIDPANFKILAHCLIVVIGMLFPADFTPDIQVSVDKFFQNVAYALSDKY</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="4" database="TR" id="A0A2V2PES2_ENTFC" ac="A0A2V2PES2" length="143" description="Uncharacterized protein OS=Enterococcus faecium OX=1352 GN=DKP78_14665 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>304</score>
+      <bits>121.709</bits>
+      <expectation>7.3E-33</expectation>
+      <identity>43.8</identity>
+      <positives>62.5</positives>
+      <gaps>5</gaps>
+      <strand>none/none</strand>
+      <querySeq start="5" end="146">TEEDKATITSLWGKVN--VEDAGGETLGRLLVVYPWTQRFFDSFGNLSSASAIMGNPKVKAHGKKVLTSLGDAIKHLDDLKGTFAQLSELHCDKLHVDPENFKLLGNVLVTVLAIHFGKEFTPEVQASWQKMVTGVASALSSRY</querySeq>
+      <pattern>T +DKA +  LWGK++   ++ GGE L R+L VYP T+ +F  + +LS  SA      VK HG  ++ ++G A+  +DDL G  A LSELH  KL VDP NFK+L + L+ V+A+ F  +FTP+VQ S  K    +A AL+ +Y</pattern>
+      <matchSeq start="4" end="142">TAKDKAAVKGLWGKISGKSDEIGGEALSRMLTVYPQTKTYFSHWADLSPGSA-----PVKKHGSTIMGAIGQAVGLMDDLVGGLASLSELHAFKLRVDPANFKILAHCLIVVIAMLFPADFTPDVQVSVDKFFQNLALALAEKY</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="5" database="TR" id="A0A2V2PDG0_ENTFC" ac="A0A2V2PDG0" length="143" description="Uncharacterized protein OS=Enterococcus faecium OX=1352 GN=DKP78_14745 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>289</score>
+      <bits>115.931</bits>
+      <expectation>1.4E-30</expectation>
+      <identity>41.7</identity>
+      <positives>62.5</positives>
+      <gaps>5</gaps>
+      <strand>none/none</strand>
+      <querySeq start="5" end="146">TEEDKATITSLWGKVN--VEDAGGETLGRLLVVYPWTQRFFDSFGNLSSASAIMGNPKVKAHGKKVLTSLGDAIKHLDDLKGTFAQLSELHCDKLHVDPENFKLLGNVLVTVLAIHFGKEFTPEVQASWQKMVTGVASALSSRY</querySeq>
+      <pattern>T +DK+ + + WGKV    +D G E LGR+LVVYP T+ +F  + + S  SA      VK HGK V+ +L DA+  +DDL G  + LS+LH  K+ VDP NFK+L + ++  LA++F  +FT EV  +  K +  V++AL+ +Y</pattern>
+      <matchSeq start="4" end="142">TAKDKSLVKAFWGKVGGKADDIGAEALGRMLVVYPQTKTYFAHWSDTSPGSA-----PVKKHGKTVMGALTDAVGKMDDLVGGLSALSDLHAFKMRVDPGNFKILSHNILVALAVNFPADFTAEVHVAVDKFLAAVSAALADKY</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+  </hits>
+ </SequenceSimilaritySearchResult></EBIApplicationResult>

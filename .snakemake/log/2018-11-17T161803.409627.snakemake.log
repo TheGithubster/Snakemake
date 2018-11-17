@@ -1,0 +1,4 @@
+Building DAG of jobs...
+MissingInputException in line 53 of /home/thomas/Desktop/Snakemake/Snakefile:
+Missing input files for rule report:
+scripts/data/blast_results.complete-visual-svg.svgscripts/data/pubmed_annotation.txt

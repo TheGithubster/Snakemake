@@ -1,0 +1,288 @@
+<?xml version='1.0'?>
+<svg contentScriptType="text/ecmascript" width="924" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" id="svg2" height="240" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.1">
+	
+ <defs id="definitions">
+    
+  <symbol id="colorscaleBox" preserveAspectRatio="xMidYMid meet">
+      
+   <rect x="50" width="650" height="10" y="15"/>
+      
+   <text x="1" fill="black" font-size="11" y="25" font-family="sans-serif">E-value</text>
+      
+   <line y2="26" stroke-width="1" x1="50" x2="700" stroke="black" y1="26"/>
+      
+   <line y2="28" stroke-width="1" x1="50" x2="50" stroke="black" y1="26"/>
+      
+   <text x="50" font-size="10" y="38" text-anchor="middle" fill="black" font-family="sans-serif" id="gradientStart">7.6E-53</text>
+      
+   <line y2="28" stroke-width="1" x1="212" x2="212" stroke="black" y1="26"/>
+      
+   <text x="212" font-size="10" y="38" text-anchor="middle" fill="black" font-family="sans-serif" id="gradientStep1">1.032E-41</text>
+      
+   <line y2="28" stroke-width="1" x1="374" x2="374" stroke="black" y1="26"/>
+      
+   <text x="374" font-size="10" y="38" text-anchor="middle" fill="black" font-family="sans-serif" id="gradientStep2">3.8E-36</text>
+      
+   <line y2="28" stroke-width="1" x1="536" x2="536" stroke="black" y1="26"/>
+      
+   <text x="536" font-size="10" y="38" text-anchor="middle" fill="black" font-family="sans-serif" id="gradientStep3">2.307E-33</text>
+      
+   <line y2="28" stroke-width="1" x1="698" x2="698" stroke="black" y1="26"/>
+      
+   <text x="698" font-size="10" y="38" text-anchor="middle" fill="black" font-family="sans-serif" id="gradientEnd">1.4E-30</text>
+      
+   <text x="350" fill="black" font-size="10" y="60" font-family="sans-serif" text-anchor="middle">European Bioinformatics Institute 2006-2014. EBI is an Outstation of the European Molecular Biology Laboratory.</text>
+    
+  </symbol>
+    
+  <linearGradient xlink:actuate="onLoad" xlink:type="simple" id="colorscale" xlink:show="other" xmlns:xlink="http://www.w3.org/1999/xlink">
+        
+   <stop stop-color="rgb(255,64,64)" offset="0%"/>
+        
+   <stop stop-color="rgb(255,255,64)" offset="25%"/>
+        
+   <stop stop-color="rgb(64,255,64)" offset="50%"/>
+        
+   <stop stop-color="rgb(64,255,255)" offset="75%"/>
+        
+   <stop stop-color="rgb(64,64,255)" offset="100%"/>
+    
+  </linearGradient>
+  
+ </defs>
+	
+ <rect x="1" y="0" fill="white" width="922" opacity="1" id="border" height="239" stroke="rgb(94,158,158)" stroke-width="2"/>
+	
+ <g id="info">
+		
+  <text x="919" font-size="10" id="startTimeInfo" y="13" font-family="sans-serif" text-anchor="end">Sat, Nov 17, 2018 at 15:19:20</text>
+		
+  <text x="919" font-size="10" id="endTimeInfo" y="23" font-family="sans-serif" text-anchor="end">Sat, Nov 17, 2018 at 15:24:48</text>
+		
+  <text x="5" font-size="11" id="programInfo" y="13" font-weight="bold" font-family="sans-serif">blastp (version: BLASTP 2.7.1+)</text>
+		
+  <text x="5" font-size="10" id="databaseInfo" y="26" font-family="sans-serif">Database: uniprotkb_bacteria</text>
+		
+  <svg x="0" contentScriptType="text/ecmascript" y="29" width="919" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" height="20" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0">
+			
+   <text x="5" font-size="10" id="sequenceName" y="8" font-family="sans-serif">Sequence: sp|P69892|HBG2_HUMAN Hemoglobin subunit gamma-2 OS=Homo sapiens OX=9606 GN=HBG2 PE=1 SV=2</text>
+		
+  </svg>
+		
+  <text x="5" font-size="10" id="sequenceInfo" y="48" font-family="sans-serif">Length: 147</text>
+	
+ </g>
+
+	
+ <g id="content">
+  <g id="title">
+			
+   <text x="299" fill="black" font-size="10" y="68" font-weight="bold" font-family="sans-serif">
+				Sequence Match
+			</text>
+			
+   <text x="246" fill="black" font-size="10" y="86" font-family="sans-serif">
+				1
+			</text>
+			
+   <text x="452" font-size="10" y="86" text-anchor="end" fill="black" font-family="sans-serif" id="sequenceLength">147</text>
+			
+   <text x="481" font-size="10" y="68" text-anchor="middle" fill="black" font-family="sans-serif" font-weight="bold">
+				E-value
+			</text>
+			
+   <text x="684" fill="black" font-size="10" y="68" font-weight="bold" font-family="sans-serif">
+				Subject Match
+			</text>
+			
+   <text x="512" fill="black" font-size="10" y="86" font-family="sans-serif">
+				1
+			</text>
+			
+   <text x="917" font-size="10" y="86" text-anchor="end" fill="black" font-family="sans-serif" id="subjectLength">148</text>
+			
+   <line y2="74" stroke-width="2" x1="249" x2="449" stroke="black" y1="74"/>
+			
+   <line y2="76" stroke-width="2" x1="249" x2="249" stroke="black" y1="72"/>
+			
+   <line y2="76" stroke-width="2" x1="449" x2="449" stroke="black" y1="72"/>
+			
+   <line y2="74" stroke-width="2" x1="514" x2="914" stroke="black" y1="74"/>
+			
+   <line y2="76" stroke-width="2" x1="514" x2="514" stroke="black" y1="72"/>
+			
+   <line y2="76" stroke-width="2" x1="914" x2="914" stroke="black" y1="72"/>
+		
+  </g>
+  <g>
+   <text x="115" font-size="9" y="103" text-anchor="end" fill="black" font-family="sans-serif" id="id">A0A2V2PAW4_ENTFC</text>
+   <text x="122" font-size="9" y="103" fill="black" font-family="sans-serif" id="description" lengthAdjust="spacingAndGlyphs" textLength="120">Uncharacterized protein ...</text>
+   <g id="alignment">
+				
+    <g id="sequenceMatch">
+					
+     <line y2="100" stroke-width="1" x1="249" x2="449" stroke="black" y1="100"/>
+					
+     <line y2="103" stroke-width="1" x1="249" x2="249" stroke="black" y1="97"/>
+					
+     <line y2="103" stroke-width="1" x1="449" x2="449" stroke="black" y1="97"/>
+					
+     <rect x="250" y="97" fill="rgb(255,64,64)" width="197" rx="3" ry="3" height="6"/>
+				
+    </g>
+				
+    <text x="481" font-size="10" y="103" text-anchor="middle" fill="black" font-family="sans-serif" id="eValue">7.6E-53</text>
+				
+    <g id="subjectMatch">
+					
+     <line y2="100" stroke-width="1" x1="514" x2="911" stroke="black" y1="100"/>
+					
+     <line y2="103" stroke-width="1" x1="514" x2="514" stroke="black" y1="97"/>
+					
+     <line y2="103" stroke-width="1" x1="911" x2="911" stroke="black" y1="97"/>
+					
+     <rect x="516" y="97" fill="rgb(255,64,64)" width="392" rx="3" ry="3" height="6"/>
+				
+    </g>
+			
+   </g>
+  </g>
+  <g>
+   <text x="115" font-size="9" y="113" text-anchor="end" fill="black" font-family="sans-serif" id="id">A0A2V2PBW1_ENTFC</text>
+   <text x="122" font-size="9" y="113" fill="black" font-family="sans-serif" id="description" lengthAdjust="spacingAndGlyphs" textLength="120">Uncharacterized protein ...</text>
+   <g id="alignment">
+				
+    <g id="sequenceMatch">
+					
+     <line y2="110" stroke-width="1" x1="249" x2="449" stroke="black" y1="110"/>
+					
+     <line y2="113" stroke-width="1" x1="249" x2="249" stroke="black" y1="107"/>
+					
+     <line y2="113" stroke-width="1" x1="449" x2="449" stroke="black" y1="107"/>
+					
+     <rect x="250" y="107" fill="rgb(255,181,64)" width="199" rx="3" ry="3" height="6"/>
+				
+    </g>
+				
+    <text x="481" font-size="10" y="113" text-anchor="middle" fill="black" font-family="sans-serif" id="eValue">5.4E-46</text>
+				
+    <g id="subjectMatch">
+					
+     <line y2="110" stroke-width="1" x1="514" x2="914" stroke="black" y1="110"/>
+					
+     <line y2="113" stroke-width="1" x1="514" x2="514" stroke="black" y1="107"/>
+					
+     <line y2="113" stroke-width="1" x1="914" x2="914" stroke="black" y1="107"/>
+					
+     <rect x="516" y="107" fill="rgb(255,181,64)" width="398" rx="3" ry="3" height="6"/>
+				
+    </g>
+			
+   </g>
+  </g>
+  <g>
+   <text x="115" font-size="9" y="123" text-anchor="end" fill="black" font-family="sans-serif" id="id">A0A2V2PLN6_ENTFC</text>
+   <text x="122" font-size="9" y="123" fill="black" font-family="sans-serif" id="description" lengthAdjust="spacingAndGlyphs" textLength="120">Uncharacterized protein ...</text>
+   <g id="alignment">
+				
+    <g id="sequenceMatch">
+					
+     <line y2="120" stroke-width="1" x1="249" x2="449" stroke="black" y1="120"/>
+					
+     <line y2="123" stroke-width="1" x1="249" x2="249" stroke="black" y1="117"/>
+					
+     <line y2="123" stroke-width="1" x1="449" x2="449" stroke="black" y1="117"/>
+					
+     <rect x="258" y="117" fill="rgb(64,255,248)" width="189" rx="3" ry="3" height="6"/>
+				
+    </g>
+				
+    <text x="481" font-size="10" y="123" text-anchor="middle" fill="black" font-family="sans-serif" id="eValue">1.8E-33</text>
+				
+    <g id="subjectMatch">
+					
+     <line y2="120" stroke-width="1" x1="514" x2="900" stroke="black" y1="120"/>
+					
+     <line y2="123" stroke-width="1" x1="514" x2="514" stroke="black" y1="117"/>
+					
+     <line y2="123" stroke-width="1" x1="900" x2="900" stroke="black" y1="117"/>
+					
+     <rect x="530" y="117" fill="rgb(64,255,248)" width="367" rx="3" ry="3" height="6"/>
+				
+    </g>
+			
+   </g>
+  </g>
+  <g>
+   <text x="115" font-size="9" y="133" text-anchor="end" fill="black" font-family="sans-serif" id="id">A0A2V2PES2_ENTFC</text>
+   <text x="122" font-size="9" y="133" fill="black" font-family="sans-serif" id="description" lengthAdjust="spacingAndGlyphs" textLength="120">Uncharacterized protein ...</text>
+   <g id="alignment">
+				
+    <g id="sequenceMatch">
+					
+     <line y2="130" stroke-width="1" x1="249" x2="449" stroke="black" y1="130"/>
+					
+     <line y2="133" stroke-width="1" x1="249" x2="249" stroke="black" y1="127"/>
+					
+     <line y2="133" stroke-width="1" x1="449" x2="449" stroke="black" y1="127"/>
+					
+     <rect x="255" y="127" fill="rgb(64,221,255)" width="192" rx="3" ry="3" height="6"/>
+				
+    </g>
+				
+    <text x="481" font-size="10" y="133" text-anchor="middle" fill="black" font-family="sans-serif" id="eValue">7.3E-33</text>
+				
+    <g id="subjectMatch">
+					
+     <line y2="130" stroke-width="1" x1="514" x2="900" stroke="black" y1="130"/>
+					
+     <line y2="133" stroke-width="1" x1="514" x2="514" stroke="black" y1="127"/>
+					
+     <line y2="133" stroke-width="1" x1="900" x2="900" stroke="black" y1="127"/>
+					
+     <rect x="524" y="127" fill="rgb(64,221,255)" width="373" rx="3" ry="3" height="6"/>
+				
+    </g>
+			
+   </g>
+  </g>
+  <g>
+   <text x="115" font-size="9" y="143" text-anchor="end" fill="black" font-family="sans-serif" id="id">A0A2V2PDG0_ENTFC</text>
+   <text x="122" font-size="9" y="143" fill="black" font-family="sans-serif" id="description" lengthAdjust="spacingAndGlyphs" textLength="120">Uncharacterized protein ...</text>
+   <g id="alignment">
+				
+    <g id="sequenceMatch">
+					
+     <line y2="140" stroke-width="1" x1="249" x2="449" stroke="black" y1="140"/>
+					
+     <line y2="143" stroke-width="1" x1="249" x2="249" stroke="black" y1="137"/>
+					
+     <line y2="143" stroke-width="1" x1="449" x2="449" stroke="black" y1="137"/>
+					
+     <rect x="255" y="137" fill="rgb(64,64,255)" width="192" rx="3" ry="3" height="6"/>
+				
+    </g>
+				
+    <text x="481" font-size="10" y="143" text-anchor="middle" fill="black" font-family="sans-serif" id="eValue">1.4E-30</text>
+				
+    <g id="subjectMatch">
+					
+     <line y2="140" stroke-width="1" x1="514" x2="900" stroke="black" y1="140"/>
+					
+     <line y2="143" stroke-width="1" x1="514" x2="514" stroke="black" y1="137"/>
+					
+     <line y2="143" stroke-width="1" x1="900" x2="900" stroke="black" y1="137"/>
+					
+     <rect x="524" y="137" fill="rgb(64,64,255)" width="373" rx="3" ry="3" height="6"/>
+				
+    </g>
+			
+   </g>
+  </g>
+ </g>
+	
+	
+ <use x="112" y="170" fill="url(#colorscale)" width="824" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#colorscaleBox" xlink:type="simple" xlink:actuate="onLoad" height="70" id="bottom" xlink:show="embed"/>
+
+
+</svg>
