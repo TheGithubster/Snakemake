@@ -12,15 +12,18 @@ Snakemake-pipeline
 git clone git@github.com:TheGithubster/Snakemake.git
 cd snakemake
 ```
-**2.Create & activate the conda environment**
- ```bash
 
-```
-
-**3. Run the pipeline**
+**2. Run the pipeline**
  ```bash
 Snakemake
 ```
+
+#notes!
+Run de regels apart, dan werkt het.
+1. snakemake select_fasta
+2. snakemake blast
+3. snakemake pubmed
+4. snakemake report
 
 
 Ubuntu 18.04.1 LTS (Bionic Beaver)
